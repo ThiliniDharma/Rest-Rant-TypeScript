@@ -1,8 +1,8 @@
-const router = require('express').Router()
-const db = require("../models")
+//const router = require('express').Router()
+//const db = require("../models")
 const bcrypt = require('bcrypt')
 
-const User:any = db
+//const User:any = db
 
 // router.post('/', async (req, res) => {
 //     console.log('IN HERE')

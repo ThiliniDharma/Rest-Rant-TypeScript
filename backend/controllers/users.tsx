@@ -1,8 +1,8 @@
 const router = require('express').Router()
-const db = require("../models")
+const db1 = require("../models")
 const bcrypt = require('bcrypt')
 
-const { User } = db
+const { User } = db1
 
 router.post('/', async (req, res) => {
     let { password, ...rest } = req.body;
